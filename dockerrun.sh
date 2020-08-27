@@ -1,0 +1,1 @@
+docker run --rm --name test-openresty-dynamic-upstream -p 9000:9000 -v /Users/wangyusheng/Documents/github/test-oprensty-dynamic-upstream/conf.d:/etc/nginx/conf.d -v /Users/wangyusheng/Documents/github/test-oprensty-dynamic-upstream/lua:/usr/local/openresty/lua openresty/openresty:1.17.8.1-centos-rpm
